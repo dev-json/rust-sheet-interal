@@ -1,7 +1,9 @@
 mod animal;
+mod human;
 
 use crate::animal::animal::Animal;
 use crate::animal::structs::{Cat, Dog};
+use crate::human::human::Human;
 
 fn main() {
     //Create a new instance of a cat.
@@ -20,6 +22,6 @@ fn main() {
     cat_1.sound();
     dog_1.sound();
 
-
+    let mut humanity = Human::i;
 
 }
